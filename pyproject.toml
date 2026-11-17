@@ -1,11 +1,12 @@
 [project]
 name = "duckdb-notebook"
 version = "0.1.0"
-description = "Query Parquet ranges with DuckDB in a Jupyter notebook"
+description = "Explore arbitrary Parquet schemas and query data with DuckDB in Jupyter"
 requires-python = ">=3.12"
 dependencies = [
     "duckdb>=1.4,<2",
     "pandas>=2.2,<4",
+    "pytz>=2024.1",
 ]
 
 [dependency-groups]
